@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qHA-e8-IW9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainTabBar-->
+        <scene sceneID="1w8-rm-VsV">
+            <objects>
+                <tabBarController id="qHA-e8-IW9" userLabel="MainTabBar" customClass="YALFoldingTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="DiB-cL-JwL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.82352941176470584" green="0.90980392156862744" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SMg-SF-CRR" kind="relationship" relationship="viewControllers" id="jKT-HC-TSJ"/>
+                        <segue destination="Dfq-bP-09a" kind="relationship" relationship="viewControllers" id="O0J-qh-mnh"/>
+                        <segue destination="QHF-yE-62w" kind="relationship" relationship="viewControllers" id="E1g-DH-wMc"/>
+                        <segue destination="bdY-w8-b6M" kind="relationship" relationship="viewControllers" id="p6e-Xd-hQU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ler-IA-aTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807" y="236"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="TJx-lT-xWT">
+            <objects>
+                <viewController id="bdY-w8-b6M" userLabel="Setting" customClass="JSettingVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dCW-2G-fmc"/>
+                        <viewControllerLayoutGuide type="bottom" id="z4m-lb-rwS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="74H-UE-dpi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-0Q-9Uw">
+                                <rect key="frame" x="40" y="100" width="520" height="421"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-rL-PAg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="DrD-xg-y3q"/>
+                                    <constraint firstAttribute="height" constant="64" id="rKu-cg-2HX"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="系统设置" id="EFE-0X-OhL"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Asm-rL-PAg" firstAttribute="top" secondItem="74H-UE-dpi" secondAttribute="top" id="2lR-Wq-f3g"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="Asm-rL-PAg" secondAttribute="bottom" constant="36" id="Dbq-bl-i4x"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="EZZ-VF-Oc6"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leadingMargin" constant="20" id="GIi-TF-22o"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="M4U-dj-xdB"/>
+                            <constraint firstItem="z4m-lb-rwS" firstAttribute="top" secondItem="yY1-0Q-9Uw" secondAttribute="bottom" constant="30" id="MUH-x4-eLA"/>
+                            <constraint firstItem="Asm-rL-PAg" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leading" id="T7x-ha-y5u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yY1-0Q-9Uw" secondAttribute="trailing" constant="20" id="U6Z-ba-oNS"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leadingMargin" constant="20" id="Znp-RB-VPD"/>
+                            <constraint firstItem="z4m-lb-rwS" firstAttribute="top" secondItem="yY1-0Q-9Uw" secondAttribute="bottom" constant="30" id="q1f-oJ-BHM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yY1-0Q-9Uw" secondAttribute="trailing" constant="20" id="wNN-ed-1Kv"/>
+                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="yt5-2t-cV5"/>
+                            <constraint firstAttribute="trailing" secondItem="Asm-rL-PAg" secondAttribute="trailing" id="zfc-3l-ozA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EZZ-VF-Oc6"/>
+                                <exclude reference="M4U-dj-xdB"/>
+                                <exclude reference="Znp-RB-VPD"/>
+                                <exclude reference="wNN-ed-1Kv"/>
+                                <exclude reference="yt5-2t-cV5"/>
+                                <exclude reference="q1f-oJ-BHM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="aDe-zc-6lg"/>
+                    <connections>
+                        <outlet property="JBackView" destination="yY1-0Q-9Uw" id="nT0-qz-Gn6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQD-0B-r6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-807" y="1308"/>
+        </scene>
+        <!--Report-->
+        <scene sceneID="rfA-uR-Ann">
+            <objects>
+                <viewController id="QHF-yE-62w" userLabel="Report" customClass="JReportChartVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JhN-9m-z45"/>
+                        <viewControllerLayoutGuide type="bottom" id="BEC-Jn-Iir"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="OFt-4O-tQu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3D-7N-9RD">
+                                <rect key="frame" x="40" y="100" width="520" height="421"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OsE-k9-lcV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="858-xh-Efo"/>
+                                    <constraint firstAttribute="height" constant="64" id="Z1m-Cb-Uab"/>
+                                    <constraint firstAttribute="width" constant="600" id="oPP-ty-KAs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="qv8-th-B4A"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="报表" id="byL-9x-iYO"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="b3D-7N-9RD" secondAttribute="trailing" constant="20" id="GE6-90-fVf"/>
+                            <constraint firstItem="BEC-Jn-Iir" firstAttribute="top" secondItem="b3D-7N-9RD" secondAttribute="bottom" constant="30" id="Q6g-GY-imO"/>
+                            <constraint firstAttribute="trailing" secondItem="OsE-k9-lcV" secondAttribute="trailing" id="S9e-Bu-Dr0"/>
+                            <constraint firstItem="OsE-k9-lcV" firstAttribute="top" secondItem="OFt-4O-tQu" secondAttribute="top" id="SKw-mH-iFJ"/>
+                            <constraint firstItem="b3D-7N-9RD" firstAttribute="top" secondItem="OsE-k9-lcV" secondAttribute="bottom" constant="36" id="UFt-gv-5Ok"/>
+                            <constraint firstItem="OsE-k9-lcV" firstAttribute="leading" secondItem="OFt-4O-tQu" secondAttribute="leading" id="k2k-A3-YkS"/>
+                            <constraint firstItem="b3D-7N-9RD" firstAttribute="leading" secondItem="OFt-4O-tQu" secondAttribute="leadingMargin" constant="20" id="svr-0b-qsq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Gow-RZ-cSC"/>
+                    <connections>
+                        <outlet property="JBackView" destination="b3D-7N-9RD" id="gdH-fF-Ms9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKM-2j-LLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91" y="1308"/>
+        </scene>
+        <!--DayWater-->
+        <scene sceneID="qek-tB-yCD">
+            <objects>
+                <viewController id="Dfq-bP-09a" userLabel="DayWater" customClass="JDayWaterVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Of8-7T-dwP"/>
+                        <viewControllerLayoutGuide type="bottom" id="lA7-dY-u4X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LmS-YK-kJc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfM-Yc-5en">
+                                <rect key="frame" x="40" y="100" width="520" height="421"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yZ-ab-kkU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="4Qi-w2-msm"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="Ahf-SR-aeJ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="JRq-kb-NCZ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="SQ6-gE-EbO"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="bVF-7l-5Do"/>
+                                    <constraint firstAttribute="width" constant="600" id="cbi-cX-oX3"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="统计" id="oWM-VC-bYL"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92535293102264404" green="0.92532753944396973" blue="0.93762314319610596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5yZ-ab-kkU" secondAttribute="trailing" id="1c8-SU-YHe"/>
+                            <constraint firstItem="SfM-Yc-5en" firstAttribute="leading" secondItem="LmS-YK-kJc" secondAttribute="leadingMargin" constant="20" id="Muk-DU-KDn"/>
+                            <constraint firstItem="5yZ-ab-kkU" firstAttribute="leading" secondItem="LmS-YK-kJc" secondAttribute="leading" id="SAV-vr-VKF"/>
+                            <constraint firstItem="5yZ-ab-kkU" firstAttribute="top" secondItem="LmS-YK-kJc" secondAttribute="top" id="cye-Wu-fKr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SfM-Yc-5en" secondAttribute="trailing" constant="20" id="hXt-XW-dc2"/>
+                            <constraint firstItem="SfM-Yc-5en" firstAttribute="top" secondItem="5yZ-ab-kkU" secondAttribute="bottom" constant="36" id="lo7-Sn-CA2"/>
+                            <constraint firstItem="lA7-dY-u4X" firstAttribute="top" secondItem="SfM-Yc-5en" secondAttribute="bottom" constant="30" id="sh5-Uf-fOP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="C20-iP-UVe"/>
+                    <connections>
+                        <outlet property="JBackView" destination="SfM-Yc-5en" id="DcV-zI-g2y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jo2-n1-YKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91" y="609"/>
+        </scene>
+        <!--TimeSetting-->
+        <scene sceneID="HDf-ob-SoD">
+            <objects>
+                <viewController id="SMg-SF-CRR" userLabel="TimeSetting" customClass="JTimeSettingVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WiK-09-Poq"/>
+                        <viewControllerLayoutGuide type="bottom" id="dwQ-U8-QDK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HVw-cj-dDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRp-g2-qNR" customClass="JT">
+                                <rect key="frame" x="40" y="100" width="520" height="421"/>
+                                <color key="backgroundColor" red="0.45098039215686275" green="0.5607843137254902" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-AU-VB6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="Ew6-7E-t1v"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="Nyz-54-BvC"/>
+                                    <constraint firstAttribute="height" constant="64" id="PBH-Cr-zT2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="Pb4-az-RQS"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="Qm2-c6-3qx"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="kRO-ZY-dmt"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="t2C-pg-TWk"/>
+                                    <constraint firstAttribute="width" constant="600" id="tyU-sB-xDA"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="时间" id="fal-Ox-2DA"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="X4h-AU-VB6" firstAttribute="top" secondItem="HVw-cj-dDZ" secondAttribute="top" id="3Ok-7a-gLx"/>
+                            <constraint firstItem="dwQ-U8-QDK" firstAttribute="top" secondItem="wRp-g2-qNR" secondAttribute="bottom" constant="30" id="5oa-dy-1Xt"/>
+                            <constraint firstItem="wRp-g2-qNR" firstAttribute="leading" secondItem="HVw-cj-dDZ" secondAttribute="leadingMargin" constant="20" id="FKD-Ik-qLk"/>
+                            <constraint firstAttribute="trailing" secondItem="X4h-AU-VB6" secondAttribute="trailing" id="Sa7-lR-n9I"/>
+                            <constraint firstItem="wRp-g2-qNR" firstAttribute="top" secondItem="X4h-AU-VB6" secondAttribute="bottom" constant="36" id="bUe-4T-efH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wRp-g2-qNR" secondAttribute="trailing" constant="20" id="izy-E9-DDE"/>
+                            <constraint firstItem="X4h-AU-VB6" firstAttribute="leading" secondItem="HVw-cj-dDZ" secondAttribute="leading" id="waZ-9n-UhI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="9Xz-Rt-1D7"/>
+                    <connections>
+                        <outlet property="JBackView" destination="wRp-g2-qNR" id="8ET-cF-fng"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3yg-2g-m9I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7W-Gc-2uU">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="600" id="7eF-ZM-RvK"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="Mcp-ek-blL"/>
+                        <constraint firstAttribute="height" constant="64" id="jrR-Nj-2JD"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="r7X-gp-yDs"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="vlG-CL-SA7"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="xKK-Xc-fJb"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="统计" id="bGY-LJ-EnB"/>
+                    </items>
+                </navigationBar>
+            </objects>
+            <point key="canvasLocation" x="-91" y="-93"/>
+        </scene>
+    </scenes>
+</document>
