@@ -2,3 +2,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 
 pod 'FoldingTabBar', '~> 1.0.3'
+pod 'JBChartView'
+pod 'PPiAwesomeButton'

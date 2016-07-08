@@ -10,10 +10,10 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01F4CA3D06DF195EE81BC136CD3C5043</key>
+		<key>001BFFBCAF0F61AFD08FE826515C4A55</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EFBB309B8961EC89A16713D5637435B8</string>
+			<string>F092C6C589C18DA661799EA8DA94D87D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -23,6 +23,35 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>01F4CA3D06DF195EE81BC136CD3C5043</key>
+		<dict>
+			<key>fileRef</key>
+			<string>51411ADDBF54C57F2E75A18564CD1F4C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0325DEF273710124EF1D7FE98F1ABD4D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALFoldingTabBarController.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
@@ -34,6 +63,45 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0380DA1D124DB4DF68F13FF3D97D948F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>50C7C974D78A2A282D13C7616F569075</string>
+				<string>68775CE9DE399F5A8CB72458E02A14B8</string>
+				<string>B5E375BFAD5C6E73DCB6D812FBDC3577</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FontAwesome+iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>048349151A69F8E9082E0AB1F4F61B1A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2F75F8DC017ECD87B2680185F2D9F03</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>048F4C527A964BC5DE6117A21796C21E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBLineChartLinesView.m</string>
+			<key>path</key>
+			<string>Classes/Line/Views/JBLineChartLinesView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -105,7 +173,126 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>08E3E403E4D8E0728F794C96B32C2B19</key>
+		<key>09CB9FE1443F1A92E7ADC5FF2DB4ACE3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5B2C1556D40647F4247C10943F6A66FC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/PPiAwesomeButton/PPiAwesomeButton-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>09D7D95DC20B0585671F05BD110FE03F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALAnimatingTabBarConstants.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A3F4A575CDDD4DB3643CEB1C5B4C6A9</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>AED9F0557EB04E8A7CA8819507FC9AD0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>16093301C714AA2E6547178A2C81DA46</string>
+				<string>94F8DADC845982B939FC2614237120B5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>E53C9E0759CA41824CD663D2A985EEF8</string>
+				<string>470094381642E60974907EDA1E4A2E60</string>
+				<string>8254B96B39750F05C0A70465C3C67851</string>
+				<string>C6E07E324DCF08BF0B6BBF92AAA7A130</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>1E2D589EABCBCE0DB647DC3A8D97A08B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>0B74A5845A99CE82257E9F7D768B7BFB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A3154AB7F07B93BA0FF1C791556F4C5A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/JBChartView/JBChartView-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0CE63AB507E3EEDD5966E3CAA7836DE8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>98101F5AA7B3AC8C39FCEDC208793157</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0D4EF023D31F7E89371DB319194453E6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -114,18 +301,39 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FoldingTabBar.h</string>
+			<string>JBGradientBarView.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Resources/FoldingTabBar.h</string>
+			<string>Classes/Bar/Views/JBGradientBarView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0C7911B93871312B6DA1B1EEC1205109</key>
+		<key>0DD25CA4A497622D5ABF4C433D79E4DE</key>
 		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0E607A0C35831A10BE8A88B75C73A3E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBLineChartLine.h</string>
+			<key>path</key>
+			<string>Classes/Line/Models/JBLineChartLine.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>10834806BD7B412BC24F347361FA2C8E</key>
 		<dict>
@@ -140,11 +348,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>122DA2E5084A4393C29BE363C764795C</key>
+		<key>114D60FAB6332611931FAAC0C509F069</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D1C97176DFC46B9F3A905EAD93397A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1287AF0A398AF7F1275CFE04774D227B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FoldingTabBar.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14B8B9B15ECBE87983FF987239AB2D7B</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DA23025FEDA7F7FE2AACB2532BD80D14</string>
+				<string>A9203A0FF197B8764CD853B6EE3A159E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -153,27 +381,83 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>19AAF9143FD099EF1D72522B235FE5BE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C7530FF817E78F84FE7BE19F7DECEF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A599DCBACDE2E589D12A4EE78F3ED4C</key>
+		<key>16093301C714AA2E6547178A2C81DA46</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>25C16ECAE1768EF326EB7F3E30F4B45C</string>
+				<string>5F37C2485A04BAC466AB0803AB1C2EDC</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>1FCEECF666D12997D845ADE7D2D46BB0</key>
+		<key>199C5548E7AF499B57B0F19B32D82814</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19AAF9143FD099EF1D72522B235FE5BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E6D3DCF048C138B8DA79A6DCC857142</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19AC338F43C6F9FBF45085E1C2D0671E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B6992CF50E9C40684130BD82012029F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1A770A41500B007F617735660480FA00</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FAImageView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D460DEBDF7EC78BCB047150AF03102B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6F50D4168589B38C02489BB158AD7D75</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1E2D589EABCBCE0DB647DC3A8D97A08B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1FD014D70F27BA29A43B6429AE34F10D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -182,11 +466,49 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FoldingTabBar-prefix.pch</string>
+			<string>UIFont+FontAwesome.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FF257F00E306FDA4EBD526FE58BCD07</key>
+		<key>238DD8FC0F752D43249DDFF2BBAEFB50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B404885557AE3CBC312E82EEEED07F48</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>242E1E08644DCFB3E4D3770846266E7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D136ABB8650314AFD6F932670CCDBFBD</string>
+				<string>1A770A41500B007F617735660480FA00</string>
+				<string>5B6992CF50E9C40684130BD82012029F</string>
+				<string>802215AADDEDD486D3C3BCFF47C965BF</string>
+				<string>1FD014D70F27BA29A43B6429AE34F10D</string>
+				<string>AC5536E8A1CC5D8012213237BA344FE1</string>
+				<string>AD1E04B78CB8A77384B7918E0A2FB660</string>
+				<string>CBA47ECDB4FDFC78192A75347DDAC66D</string>
+				<string>6F0FCDE9606A4FCAA1AA2BE988CEC209</string>
+				<string>0380DA1D124DB4DF68F13FF3D97D948F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FontAwesome+iOS</string>
+			<key>path</key>
+			<string>FontAwesome+iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2570FB3DE71FDC3079FA7DDE74D1D478</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E5D6DE4473317CE948B964A356A95F0F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>257DFFB73FA32D0A83A502A18D4700D6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -194,33 +516,65 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALCustomHeightTabBar.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m</string>
+			<string>PPiAwesomeButton-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>238DD8FC0F752D43249DDFF2BBAEFB50</key>
+		<key>25BCF5B1443FB30249CB458E1D2436EB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E8344BC6967D202C1AF5B57C3A439945</string>
+				<string>86A2C336F4D8985396AC0BE866192153</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2633679AF3D550DBFF13AE2F8FF9F6C7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1FF257F00E306FDA4EBD526FE58BCD07</string>
+			<string>4AE7FD0E16F3FACCFE19068F1E872D9F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2570FB3DE71FDC3079FA7DDE74D1D478</key>
+		<key>2672388C4BED8C33A1BAB409C7A4E763</key>
 		<dict>
-			<key>fileRef</key>
-			<string>DF6FC7D75DF424D09BE8B9CD085C3228</string>
+			<key>baseConfigurationReference</key>
+			<string>50C7C974D78A2A282D13C7616F569075</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FontAwesome+iOS/FontAwesome+iOS-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25C16ECAE1768EF326EB7F3E30F4B45C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
@@ -234,6 +588,69 @@
 			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>281A9540C32020379E3DE369DBFD22D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6C75FD6B3D1881EEA2E2D6D698032364</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2C0D8389427F92319CBF162A60C42F4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBBarChartView.h</string>
+			<key>path</key>
+			<string>Classes/Bar/JBBarChartView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D1F36F394E14B3676E814FD558D6BD3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A3154AB7F07B93BA0FF1C791556F4C5A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/JBChartView/JBChartView-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -249,38 +666,84 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>323C0A6CB1ADFB24DB3026307E0B7EC2</key>
+		<key>2E7D4EE95806438DE28F41F4F95A2193</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>ECB078479FB4D1DEC441814B0B0C0D36</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2F435ABABFD0646041961B21344596CB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>09CB9FE1443F1A92E7ADC5FF2DB4ACE3</string>
+				<string>4238E8580F5787F563EC410861C3687C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2FB9BFCF08BE0892E85BE076A2FC740A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B50AEDD7ED2072CA5393A4BD47AE208E</string>
+				<string>E5D6DE4473317CE948B964A356A95F0F</string>
+				<string>591C0F5E7693B845234A5F500C3C842D</string>
+				<string>3BF579B3D42E5F74D9118DCDC991364E</string>
+				<string>978ACEA00BA615086A1C20F57055950A</string>
+				<string>517677011BAF32239BF2800467ADBB49</string>
+				<string>4B39EDE64D56C498044737A7B640ADB4</string>
+				<string>09D7D95DC20B0585671F05BD110FE03F</string>
+				<string>B0448A50C26F93C078C3B594D63E2A63</string>
+				<string>B404885557AE3CBC312E82EEEED07F48</string>
+				<string>B059A960A5349134B8C5E918EDEB2AE7</string>
+				<string>5E6D3DCF048C138B8DA79A6DCC857142</string>
+				<string>0325DEF273710124EF1D7FE98F1ABD4D</string>
+				<string>F27680D39C80CF60B3889594C3D9675F</string>
+				<string>82831B61DEBB7C1BC2D1DFF315904788</string>
+				<string>9467B12C5173A9B927FF84A0FA5EB449</string>
+				<string>51411ADDBF54C57F2E75A18564CD1F4C</string>
+				<string>F50FF84B64E28083601524FF7B0BEEDD</string>
+				<string>AF5CCBCEF982C5BB24D0821FA36B06A0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<string>FoldingTabBar</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<string>FoldingTabBar</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34E0444B45272E6A93814F5B143DC257</key>
+		<key>319BDF36DB9B89C24C517EFC9FE6185D</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EC7BD822E3A1E8B46C2D0EBE032F994B</string>
+			</array>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F71BAD3AB1E85C78D594828526C960A9</string>
-			<key>remoteInfo</key>
-			<string>FoldingTabBar</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>354901CD1D8E3F765881063755447F56</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6207FA76695155454712BF89ACD0A9B9</string>
+			<string>1287AF0A398AF7F1275CFE04774D227B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -324,79 +787,24 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3E263E2EA2989B8C2A1179A51D786691</key>
+		<key>37E626E2D31266A7FB8E021E16CA7809</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YALTabBarItem.m</string>
-			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E5575BC24C3D8E9D1E6971D29E7D298</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FEEB79BF32E8164B2124D1CBF5ED935</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E642B1A057ADA2ABEF90BE2417F349C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3FF6A0F4D6BDB730713BAE9ED7BAE6E0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2672388C4BED8C33A1BAB409C7A4E763</string>
+				<string>B044D9DE271AAADB3B525A56A956D0F6</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
 			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>44F097BD2FC30BFC0A9DFE2A9B4A529A</key>
+		<key>382A12F8ABABF389A18F9CF6621939CD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>75CF81412F72D75AE45F63148C764B12</string>
+			<string>4F96C961F6D1ED00242033A39FDC647F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -407,17 +815,329 @@
 				</array>
 			</dict>
 		</dict>
-		<key>49D55A1F9EB785EFC4583D4F589B00C2</key>
+		<key>3A42C5CE54AE4D7A5CD35290A4D81422</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CEEA41A9E7C4B42CA95D4218F6D0AD19</string>
+				<string>2E7D4EE95806438DE28F41F4F95A2193</string>
+				<string>A3FF50F94157C67AC812ADD1D3FF1E7E</string>
+				<string>382A12F8ABABF389A18F9CF6621939CD</string>
+				<string>B249B965376F794FE4D4EF016A2521A5</string>
+				<string>631693358344BD51D28D27F7C0461DBD</string>
+				<string>C63B613BCA115FB49A812CDB392A9EFF</string>
+				<string>5F1BC851B99204E73A5A1A48A0681AF7</string>
+				<string>85BB4EE8693D2CC8568CC2F83C19FB44</string>
+				<string>001BFFBCAF0F61AFD08FE826515C4A55</string>
+				<string>679D4EC8D9BD2739DB98303FB900B8BB</string>
+				<string>281A9540C32020379E3DE369DBFD22D6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3B613DC1ECBC4420FFF3AFD7A312B802</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBShapeLineLayer.h</string>
+			<key>path</key>
+			<string>Classes/Line/Layers/JBShapeLineLayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3BF579B3D42E5F74D9118DCDC991364E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3CD3E908AF900F36AFF309CC1AA4005F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CDB1C8A47DD3943770D41E1A3B42F7DF</string>
+			<key>remoteInfo</key>
+			<string>JBChartView</string>
+		</dict>
+		<key>3F16BCAF52D469DE55462DD2D5E38F09</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBLineChartDotsView.h</string>
+			<key>path</key>
+			<string>Classes/Line/Views/JBLineChartDotsView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3FEEB79BF32E8164B2124D1CBF5ED935</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0DD25CA4A497622D5ABF4C433D79E4DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4202927E3CA6A270EE9DA5A42CA4BD70</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2F435ABABFD0646041961B21344596CB</string>
+			<key>buildPhases</key>
+			<array>
+				<string>61704FF39168C6214588BC5267C70335</string>
+				<string>EE288FE23909188F6FC60D3DAF1AFC59</string>
+				<string>25BCF5B1443FB30249CB458E1D2436EB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>AA3FCC23FF7A81DBBBE4172B97FF8B11</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PPiAwesomeButton</string>
+			<key>productName</key>
+			<string>PPiAwesomeButton</string>
+			<key>productReference</key>
+			<string>6BC0A7BEA1711E4FAF6EC0A82E91927E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>4238E8580F5787F563EC410861C3687C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5B2C1556D40647F4247C10943F6A66FC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/PPiAwesomeButton/PPiAwesomeButton-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4274F87EAC9A16D7B35CCF7E83A2B61F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIButton+PPiAwesome.m</string>
+			<key>path</key>
+			<string>Control/UIButton+PPiAwesome.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>430A12773877AF487DF3D0C592A7A2CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>JBChartView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>448962DB79C880921191BEDBF1172D3C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1FD014D70F27BA29A43B6429AE34F10D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>449CF11DE84BE81467D9AE89C8D0C51E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libFontAwesome+iOS.a</string>
+			<key>path</key>
+			<string>libFontAwesome+iOS.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>44F097BD2FC30BFC0A9DFE2A9B4A529A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B059A960A5349134B8C5E918EDEB2AE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>45A84AE65E0F9BE3BA0DFDAF0EEE6E96</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A770A41500B007F617735660480FA00</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>470094381642E60974907EDA1E4A2E60</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FontAwesome+iOS</string>
+			<key>target</key>
+			<string>91DD3A06013D443F75BA2DDC6567987F</string>
+			<key>targetProxy</key>
+			<string>930A4A9A647DD908802CDC89E3F8B311</string>
+		</dict>
+		<key>4859AFA8A33832F8E3991B83111F54B6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIAwesomeButton.m</string>
+			<key>path</key>
+			<string>Control/UIAwesomeButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AE7FD0E16F3FACCFE19068F1E872D9F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>4B39EDE64D56C498044737A7B640ADB4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALAnimatingTabBarConstants.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BE396D90A8616BC1EEF1BD3F34B12C7</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>524783338562C6F6A5D228C932239EC8</string>
-				<string>D9A08A890BD47B0FB1D06F0A83E420A7</string>
+				<string>2C0D8389427F92319CBF162A60C42F4E</string>
+				<string>98101F5AA7B3AC8C39FCEDC208793157</string>
+				<string>ECB078479FB4D1DEC441814B0B0C0D36</string>
+				<string>F9B8C1E688EA60E5AD7863E88DE0A941</string>
+				<string>0D4EF023D31F7E89371DB319194453E6</string>
+				<string>6F50D4168589B38C02489BB158AD7D75</string>
+				<string>4F96C961F6D1ED00242033A39FDC647F</string>
+				<string>B3CCF02AFAB03813B85EC9A5675C3950</string>
+				<string>3F16BCAF52D469DE55462DD2D5E38F09</string>
+				<string>521569885DAAB31795299029C915E5BC</string>
+				<string>E6FCC1F045D64601590DBFE6DF103F29</string>
+				<string>8D1C97176DFC46B9F3A905EAD93397A0</string>
+				<string>0E607A0C35831A10BE8A88B75C73A3E7</string>
+				<string>996CEFB4B3C61C2F0217E549C18ABD7F</string>
+				<string>FF72E5398B44346B74D1A7DA6E9A63ED</string>
+				<string>048F4C527A964BC5DE6117A21796C21E</string>
+				<string>9DB86821BA13942DA0EA172CA7DCA763</string>
+				<string>D12EC2BCDBADD73A58D2043D7B3C14A2</string>
+				<string>F092C6C589C18DA661799EA8DA94D87D</string>
+				<string>C89F5247C6D9A8711F1EBE87D9D250EA</string>
+				<string>3B613DC1ECBC4420FFF3AFD7A312B802</string>
+				<string>584A0837AD66E86FE577D5AF28584088</string>
+				<string>6C75FD6B3D1881EEA2E2D6D698032364</string>
+				<string>C2F75F8DC017ECD87B2680185F2D9F03</string>
+				<string>7F413218BA942ACADE7C4BC3B85D73CF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>JBChartView</string>
+			<key>path</key>
+			<string>JBChartView</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -434,25 +1154,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4E83B6EF561B0E992F4463FA252DF6B7</key>
+		<key>4ED6E4A0BE7774BA5B134D985389EB68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>996CEFB4B3C61C2F0217E549C18ABD7F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4F96C961F6D1ED00242033A39FDC647F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALAnimatingTabBarConstants.m</string>
+			<string>JBGradientLineLayer.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.m</string>
+			<string>Classes/Line/Layers/JBGradientLineLayer.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5018EB489DD5F4766A69384F3840D461</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C50EAEA211DD88CC5F383DEECB33A6E2</string>
+			<string>591C0F5E7693B845234A5F500C3C842D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -463,53 +1190,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>524783338562C6F6A5D228C932239EC8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libFoldingTabBar.a</string>
-			<key>path</key>
-			<string>libFoldingTabBar.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>55C4810B772F144CF30789FB95D9ADB9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6207FA76695155454712BF89ACD0A9B9</string>
-				<string>937432392F2705A850C7DEFF92ABF5F3</string>
-				<string>1FCEECF666D12997D845ADE7D2D46BB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FoldingTabBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>589A1A922CDEDE8F4CE89221A2282A68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08E3E403E4D8E0728F794C96B32C2B19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6207FA76695155454712BF89ACD0A9B9</key>
+		<key>50C7C974D78A2A282D13C7616F569075</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -518,14 +1199,74 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>FoldingTabBar.xcconfig</string>
+			<string>FontAwesome+iOS.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>63B6197FF92C832AF1FDA436A9634C81</key>
+		<key>51411ADDBF54C57F2E75A18564CD1F4C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALTabBarItem.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>517677011BAF32239BF2800467ADBB49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>Info.plist</string>
+			<key>path</key>
+			<string>FoldingTabBar/Resources/Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>521569885DAAB31795299029C915E5BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBLineChartDotsView.m</string>
+			<key>path</key>
+			<string>Classes/Line/Views/JBLineChartDotsView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>584A0837AD66E86FE577D5AF28584088</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBShapeLineLayer.m</string>
+			<key>path</key>
+			<string>Classes/Line/Layers/JBShapeLineLayer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>589A1A922CDEDE8F4CE89221A2282A68</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E362EB3AAD6175215C23F3F0C3487945</string>
+			<string>978ACEA00BA615086A1C20F57055950A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -535,6 +1276,218 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>591C0F5E7693B845234A5F500C3C842D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>599E6549CFE5C5C5E5CA25851712C1E8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FontAwesome.ttf</string>
+			<key>path</key>
+			<string>Resources/FontAwesome.ttf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A4C0D5D1E683EB4E7A835E5A1E8F3A9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5B2C1556D40647F4247C10943F6A66FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>PPiAwesomeButton.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B6992CF50E9C40684130BD82012029F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSString+FontAwesome.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C68935610EC6D283E9CA36F5772141A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68775CE9DE399F5A8CB72458E02A14B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5D7306D82A56D4B59676FC8C7CBBA47F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>4202927E3CA6A270EE9DA5A42CA4BD70</string>
+			<key>remoteInfo</key>
+			<string>PPiAwesomeButton</string>
+		</dict>
+		<key>5E6D3DCF048C138B8DA79A6DCC857142</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALFoldingTabBar.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F1BC851B99204E73A5A1A48A0681AF7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FF72E5398B44346B74D1A7DA6E9A63ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5F37C2485A04BAC466AB0803AB1C2EDC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>61704FF39168C6214588BC5267C70335</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B4222B27406027AA7FFD6EB1A9C46DCE</string>
+				<string>E0DD3C532DF88AE5AD1377687A0CC4BB</string>
+				<string>F76177CA9F8751C80F858295B6C8D210</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>631693358344BD51D28D27F7C0461DBD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E6FCC1F045D64601590DBFE6DF103F29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>63B6197FF92C832AF1FDA436A9634C81</key>
+		<dict>
+			<key>fileRef</key>
+			<string>82831B61DEBB7C1BC2D1DFF315904788</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>679D4EC8D9BD2739DB98303FB900B8BB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3B613DC1ECBC4420FFF3AFD7A312B802</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>68775CE9DE399F5A8CB72458E02A14B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FontAwesome+iOS-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6911BECA35E7518D864239B7E898EEF3</key>
 		<dict>
@@ -548,6 +1501,115 @@
 			<string>Pods-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>697B974972EF8FC88614B40C75429F31</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C89F5247C6D9A8711F1EBE87D9D250EA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6A95F9E5216FBAA42D7F4F08263315D1</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>91DD3A06013D443F75BA2DDC6567987F</string>
+			<key>remoteInfo</key>
+			<string>FontAwesome+iOS</string>
+		</dict>
+		<key>6BC0A7BEA1711E4FAF6EC0A82E91927E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPPiAwesomeButton.a</string>
+			<key>path</key>
+			<string>libPPiAwesomeButton.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6C03F1ABD933FF0B45F9BF3CDA6BA779</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0CE63AB507E3EEDD5966E3CAA7836DE8</string>
+				<string>7657CC94A980453D49EC1A8F3AA21320</string>
+				<string>E9FBF60CF0785A4AB4E391EEE946D347</string>
+				<string>1D460DEBDF7EC78BCB047150AF03102B</string>
+				<string>893F6945F378214F5CA0CB23EBB2E26C</string>
+				<string>D3BD5456540A72BE24F8EE0518E66F75</string>
+				<string>114D60FAB6332611931FAAC0C509F069</string>
+				<string>4ED6E4A0BE7774BA5B134D985389EB68</string>
+				<string>E964F65AAFB6512E4D1DE5A4ACD2ABB1</string>
+				<string>D85D58C9F696AAD110661AF73FA392DB</string>
+				<string>697B974972EF8FC88614B40C75429F31</string>
+				<string>824E4E0AB296CA17CDEFED6D924F2663</string>
+				<string>048349151A69F8E9082E0AB1F4F61B1A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6C194E4D2C3CED5DB0CAE2EB41B1E481</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7D38A3AB1A2884171FB1B529D42E88DB</string>
+				<string>4859AFA8A33832F8E3991B83111F54B6</string>
+				<string>BEC45AA3945D60788394EE28E6FBE8BB</string>
+				<string>4274F87EAC9A16D7B35CCF7E83A2B61F</string>
+				<string>DD45F32638933CB66DC1FFE06DF85741</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>PPiAwesomeButton</string>
+			<key>path</key>
+			<string>PPiAwesomeButton</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C75FD6B3D1881EEA2E2D6D698032364</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSMutableArray+JBStack.h</string>
+			<key>path</key>
+			<string>Classes/Additions/NSMutableArray+JBStack.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C76E20CCFFF0244144EF5632DE74166</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libJBChartView.a</string>
+			<key>path</key>
+			<string>libJBChartView.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>6D83BC0C7AA911E530C37CEC3AE17348</key>
 		<dict>
@@ -570,7 +1632,20 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>74290D4796802DC127CF42B4A57AA836</key>
+		<key>6F0FCDE9606A4FCAA1AA2BE988CEC209</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>599E6549CFE5C5C5E5CA25851712C1E8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F50D4168589B38C02489BB158AD7D75</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -579,44 +1654,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALFoldingTabBarController.m</string>
+			<string>JBGradientBarView.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m</string>
+			<string>Classes/Bar/Views/JBGradientBarView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>75CF81412F72D75AE45F63148C764B12</key>
+		<key>70D05D4F3AA059EA0281F29D8CD8B3C5</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALFoldingTabBar.h</string>
+			<string>libFoldingTabBar.a</string>
 			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h</string>
+			<string>libFoldingTabBar.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>75D7253B7BBA673249F1BD9F327115B2</key>
+		<key>7657CC94A980453D49EC1A8F3AA21320</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>DFB8398EC7478105D3DEF442B4F6FDC1</string>
-			</array>
+			<key>fileRef</key>
+			<string>9941302243E85BBB33FAE24F9A68D51E</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>780C7CBD006EA003911C17DBC9C309B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A6F1343195249757DBF6AED754CCD8CC</string>
+			<string>B0448A50C26F93C078C3B594D63E2A63</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -630,22 +1699,22 @@
 		<key>7B609304C4EB45D3059AD69FA84C2C73</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FBEF4EAC555985A38B3E2A5E16A19DF5</string>
+			<string>9467B12C5173A9B927FF84A0FA5EB449</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7C7530FF817E78F84FE7BE19F7DECEF8</key>
+		<key>7D38A3AB1A2884171FB1B529D42E88DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALFoldingTabBar.m</string>
+			<string>UIAwesomeButton.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m</string>
+			<string>Control/UIAwesomeButton.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -654,9 +1723,9 @@
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>75D7253B7BBA673249F1BD9F327115B2</string>
-				<string>49D55A1F9EB785EFC4583D4F589B00C2</string>
+				<string>14B8B9B15ECBE87983FF987239AB2D7B</string>
+				<string>EF88334CE0A4109A0C283EA7B7BC2779</string>
+				<string>B3634A36B99D09522C17FBC1869BBEA6</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
 			<key>isa</key>
@@ -664,25 +1733,73 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>81DFC167781281EFF494C4622F1116CC</key>
+		<key>7F413218BA942ACADE7C4BC3B85D73CF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A3154AB7F07B93BA0FF1C791556F4C5A</string>
+				<string>9941302243E85BBB33FAE24F9A68D51E</string>
+				<string>430A12773877AF487DF3D0C592A7A2CB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/JBChartView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802215AADDEDD486D3C3BCFF47C965BF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>Info.plist</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>FoldingTabBar/Resources/Info.plist</string>
+			<string>NSString+FontAwesome.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8B1A6039000FA5AF28C8681F9DE24921</key>
+		<key>824E4E0AB296CA17CDEFED6D924F2663</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E5575BC24C3D8E9D1E6971D29E7D298</string>
+			<string>584A0837AD66E86FE577D5AF28584088</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8254B96B39750F05C0A70465C3C67851</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>JBChartView</string>
+			<key>target</key>
+			<string>CDB1C8A47DD3943770D41E1A3B42F7DF</string>
+			<key>targetProxy</key>
+			<string>3CD3E908AF900F36AFF309CC1AA4005F</string>
+		</dict>
+		<key>82831B61DEBB7C1BC2D1DFF315904788</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALSpringAnimation.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85BB4EE8693D2CC8568CC2F83C19FB44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9DB86821BA13942DA0EA172CA7DCA763</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -693,27 +1810,80 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8E95B6A4C10F700AF97EB23BB374FBCF</key>
+		<key>86A2C336F4D8985396AC0BE866192153</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D9DE615671731BF3AEFB3CB1F984FA8F</string>
+			<string>BEC45AA3945D60788394EE28E6FBE8BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>87C267FCA6EA5092ACFA44F08DEF7344</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D136ABB8650314AFD6F932670CCDBFBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>893F6945F378214F5CA0CB23EBB2E26C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3CCF02AFAB03813B85EC9A5675C3950</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>91413329813FA6FE5A78842159E69621</key>
+		<key>89F0C2C845C33B5425ADB790A2FFDC28</key>
 		<dict>
+			<key>fileRef</key>
+			<string>802215AADDEDD486D3C3BCFF47C965BF</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
 		</dict>
-		<key>937432392F2705A850C7DEFF92ABF5F3</key>
+		<key>8B1A6039000FA5AF28C8681F9DE24921</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B50AEDD7ED2072CA5393A4BD47AE208E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8B989B8B70F0F278FA3153D818599C35</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CBA47ECDB4FDFC78192A75347DDAC66D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>8D1C97176DFC46B9F3A905EAD93397A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -721,17 +1891,122 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBLineChartDotView.m</string>
 			<key>path</key>
-			<string>FoldingTabBar-dummy.m</string>
+			<string>Classes/Line/Views/JBLineChartDotView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E95B6A4C10F700AF97EB23BB374FBCF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED04AE2201316F6590E7AD9952706C7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>91DD3A06013D443F75BA2DDC6567987F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>37E626E2D31266A7FB8E021E16CA7809</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E0DE7361D48F2F800A5409F87FFCEAF7</string>
+				<string>A2676BADF85612BCEC672EC50F44539D</string>
+				<string>D89BFD1F0D75ECB29AF55D847C97D2C4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>FontAwesome+iOS</string>
+			<key>productName</key>
+			<string>FontAwesome+iOS</string>
+			<key>productReference</key>
+			<string>449CF11DE84BE81467D9AE89C8D0C51E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>930A4A9A647DD908802CDC89E3F8B311</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>91DD3A06013D443F75BA2DDC6567987F</string>
+			<key>remoteInfo</key>
+			<string>FontAwesome+iOS</string>
+		</dict>
+		<key>9467B12C5173A9B927FF84A0FA5EB449</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALSpringAnimation.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>94F8DADC845982B939FC2614237120B5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>199C5548E7AF499B57B0F19B32D82814</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>9784CBFE058AE7D9A0EE6501E0D0A9B8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>91413329813FA6FE5A78842159E69621</string>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>978ACEA00BA615086A1C20F57055950A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FoldingTabBar.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Resources/FoldingTabBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>98101F5AA7B3AC8C39FCEDC208793157</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBBarChartView.m</string>
+			<key>path</key>
+			<string>Classes/Bar/JBBarChartView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
@@ -746,38 +2021,55 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9A9671991FC07F784B9A014916B59D18</key>
+		<key>9941302243E85BBB33FAE24F9A68D51E</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>F983D80CE67A70A82C6CA861526A4AA2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E86EB04A044C992066ABDFFEC1FE6986</string>
-				<string>1A599DCBACDE2E589D12A4EE78F3ED4C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B22440765F6A71DE2B1CAD5126170576</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>JBChartView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>996CEFB4B3C61C2F0217E549C18ABD7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>D9A08A890BD47B0FB1D06F0A83E420A7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>JBLineChartLine.m</string>
+			<key>path</key>
+			<string>Classes/Line/Models/JBLineChartLine.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9C2772BB95EA34703426909B9BC34EC8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>74290D4796802DC127CF42B4A57AA836</string>
+			<string>F27680D39C80CF60B3889594C3D9675F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>9DB86821BA13942DA0EA172CA7DCA763</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBLineChartPoint.h</string>
+			<key>path</key>
+			<string>Classes/Line/Models/JBLineChartPoint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
 		<dict>
@@ -792,7 +2084,133 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A6F1343195249757DBF6AED754CCD8CC</key>
+		<key>A2676BADF85612BCEC672EC50F44539D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2633679AF3D550DBFF13AE2F8FF9F6C7</string>
+				<string>FCB576E1A68E146723A6A4D14DE585A2</string>
+				<string>C9DCC8CA41CE173BF099B1AC7CC2F115</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A3154AB7F07B93BA0FF1C791556F4C5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>JBChartView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A3FF50F94157C67AC812ADD1D3FF1E7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0D4EF023D31F7E89371DB319194453E6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A9203A0FF197B8764CD853B6EE3A159E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4AE7FD0E16F3FACCFE19068F1E872D9F</string>
+				<string>CE437620300D81EED04DF8C0301AF9D9</string>
+				<string>0DD25CA4A497622D5ABF4C433D79E4DE</string>
+				<string>ED04AE2201316F6590E7AD9952706C7B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA3FCC23FF7A81DBBBE4172B97FF8B11</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FontAwesome+iOS</string>
+			<key>target</key>
+			<string>91DD3A06013D443F75BA2DDC6567987F</string>
+			<key>targetProxy</key>
+			<string>6A95F9E5216FBAA42D7F4F08263315D1</string>
+		</dict>
+		<key>AC5536E8A1CC5D8012213237BA344FE1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIFont+FontAwesome.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD1E04B78CB8A77384B7918E0A2FB660</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIImage+FontAwesome.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AED9F0557EB04E8A7CA8819507FC9AD0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5A4C0D5D1E683EB4E7A835E5A1E8F3A9</string>
+				<string>DCA4AAFE813826933728CE94BBA846AB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>AF5CCBCEF982C5BB24D0821FA36B06A0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1287AF0A398AF7F1275CFE04774D227B</string>
+				<string>E5520FE82605E806BB2189828AA8B80F</string>
+				<string>DEE90D1E97C3095A102EFD25C1FEE8D4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FoldingTabBar</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0448A50C26F93C078C3B594D63E2A63</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -807,16 +2225,99 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B22440765F6A71DE2B1CAD5126170576</key>
+		<key>B044D9DE271AAADB3B525A56A956D0F6</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>50C7C974D78A2A282D13C7616F569075</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FontAwesome+iOS/FontAwesome+iOS-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>target</key>
-			<string>F71BAD3AB1E85C78D594828526C960A9</string>
-			<key>targetProxy</key>
-			<string>34E0444B45272E6A93814F5B143DC257</string>
+			<string>Release</string>
+		</dict>
+		<key>B059A960A5349134B8C5E918EDEB2AE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YALFoldingTabBar.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B05F77A3B1E212CE0A76FC1F58BF2305</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD1E04B78CB8A77384B7918E0A2FB660</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B249B965376F794FE4D4EF016A2521A5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F16BCAF52D469DE55462DD2D5E38F09</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B3634A36B99D09522C17FBC1869BBEA6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>70D05D4F3AA059EA0281F29D8CD8B3C5</string>
+				<string>449CF11DE84BE81467D9AE89C8D0C51E</string>
+				<string>6C76E20CCFFF0244144EF5632DE74166</string>
+				<string>1E2D589EABCBCE0DB647DC3A8D97A08B</string>
+				<string>6BC0A7BEA1711E4FAF6EC0A82E91927E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B37F0F91F85060E28F1DAAB522DC7EC1</key>
 		<dict>
@@ -891,6 +2392,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>B3CCF02AFAB03813B85EC9A5675C3950</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBGradientLineLayer.m</string>
+			<key>path</key>
+			<string>Classes/Line/Layers/JBGradientLineLayer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
 		<dict>
 			<key>children</key>
@@ -912,10 +2428,67 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B404885557AE3CBC312E82EEEED07F48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALCustomHeightTabBar.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B4222B27406027AA7FFD6EB1A9C46DCE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>257DFFB73FA32D0A83A502A18D4700D6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B50AEDD7ED2072CA5393A4BD47AE208E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CAAnimation+YALTabBarViewAnimations.h</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5E375BFAD5C6E73DCB6D812FBDC3577</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FontAwesome+iOS-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B62B4BD84DDFD9C5FC17266F543B81C3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4E83B6EF561B0E992F4463FA252DF6B7</string>
+			<string>09D7D95DC20B0585671F05BD110FE03F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B6A05F1D37554DB445743352675256C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -936,7 +2509,7 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BF39E58E9D23D73BF6443DA7E8BEC91F</key>
+		<key>BEC45AA3945D60788394EE28E6FBE8BB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -945,16 +2518,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALAnimatingTabBarConstants.h</string>
+			<string>UIButton+PPiAwesome.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Constants/YALAnimatingTabBarConstants.h</string>
+			<string>Control/UIButton+PPiAwesome.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BFA40F16AF9645880BC0839F7CB8C1C5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BF39E58E9D23D73BF6443DA7E8BEC91F</string>
+			<string>4B39EDE64D56C498044737A7B640ADB4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -965,7 +2538,89 @@
 				</array>
 			</dict>
 		</dict>
-		<key>C50EAEA211DD88CC5F383DEECB33A6E2</key>
+		<key>C2F75F8DC017ECD87B2680185F2D9F03</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSMutableArray+JBStack.m</string>
+			<key>path</key>
+			<string>Classes/Additions/NSMutableArray+JBStack.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C63B613BCA115FB49A812CDB392A9EFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E607A0C35831A10BE8A88B75C73A3E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C6E07E324DCF08BF0B6BBF92AAA7A130</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>PPiAwesomeButton</string>
+			<key>target</key>
+			<string>4202927E3CA6A270EE9DA5A42CA4BD70</string>
+			<key>targetProxy</key>
+			<string>5D7306D82A56D4B59676FC8C7CBBA47F</string>
+		</dict>
+		<key>C89460BF62722E10E96C999DF7402FA5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3BF579B3D42E5F74D9118DCDC991364E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C89F5247C6D9A8711F1EBE87D9D250EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBLineChartView.m</string>
+			<key>path</key>
+			<string>Classes/Line/JBLineChartView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9DCC8CA41CE173BF099B1AC7CC2F115</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED04AE2201316F6590E7AD9952706C7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CBA47ECDB4FDFC78192A75347DDAC66D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIImage+FontAwesome.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCB6DC33BA544E74599D97B10D6D5ABE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -973,19 +2628,110 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CATransaction+TransactionWithAnimationsAndCompletion.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h</string>
+			<string>PPiAwesomeButton-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C89460BF62722E10E96C999DF7402FA5</key>
+		<key>CDB1C8A47DD3943770D41E1A3B42F7DF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FB53F49A575208B9F4969DB1143F6A1E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6C03F1ABD933FF0B45F9BF3CDA6BA779</string>
+				<string>319BDF36DB9B89C24C517EFC9FE6185D</string>
+				<string>3A42C5CE54AE4D7A5CD35290A4D81422</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JBChartView</string>
+			<key>productName</key>
+			<string>JBChartView</string>
+			<key>productReference</key>
+			<string>6C76E20CCFFF0244144EF5632DE74166</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>CE437620300D81EED04DF8C0301AF9D9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CEEA41A9E7C4B42CA95D4218F6D0AD19</key>
 		<dict>
 			<key>fileRef</key>
-			<string>323C0A6CB1ADFB24DB3026307E0B7EC2</string>
+			<string>2C0D8389427F92319CBF162A60C42F4E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D12EC2BCDBADD73A58D2043D7B3C14A2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JBLineChartPoint.m</string>
+			<key>path</key>
+			<string>Classes/Line/Models/JBLineChartPoint.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D136ABB8650314AFD6F932670CCDBFBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FAImageView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D3BD5456540A72BE24F8EE0518E66F75</key>
+		<dict>
+			<key>fileRef</key>
+			<string>521569885DAAB31795299029C915E5BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D3FB7E332A340F8F5911310C75B56964</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>F71BAD3AB1E85C78D594828526C960A9</string>
+			<key>remoteInfo</key>
+			<string>FoldingTabBar</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1013,7 +2759,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>49D55A1F9EB785EFC4583D4F589B00C2</string>
+			<string>B3634A36B99D09522C17FBC1869BBEA6</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1023,13 +2769,46 @@
 			<key>targets</key>
 			<array>
 				<string>F71BAD3AB1E85C78D594828526C960A9</string>
-				<string>9A9671991FC07F784B9A014916B59D18</string>
+				<string>91DD3A06013D443F75BA2DDC6567987F</string>
+				<string>CDB1C8A47DD3943770D41E1A3B42F7DF</string>
+				<string>0A3F4A575CDDD4DB3643CEB1C5B4C6A9</string>
+				<string>4202927E3CA6A270EE9DA5A42CA4BD70</string>
 			</array>
+		</dict>
+		<key>D7D05D7F0505E07642704E441B1C847D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0DD25CA4A497622D5ABF4C433D79E4DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D85D58C9F696AAD110661AF73FA392DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D12EC2BCDBADD73A58D2043D7B3C14A2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D89BFD1F0D75ECB29AF55D847C97D2C4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>87C267FCA6EA5092ACFA44F08DEF7344</string>
+				<string>19AC338F43C6F9FBF45085E1C2D0671E</string>
+				<string>448962DB79C880921191BEDBF1172D3C</string>
+				<string>B05F77A3B1E212CE0A76FC1F58BF2305</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>D9006D440C6B70F14A13B228427AB02F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA1D2430AB087E0CAB42B1307D8D1B93</string>
+			<string>0325DEF273710124EF1D7FE98F1ABD4D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1039,34 +2818,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>D9A08A890BD47B0FB1D06F0A83E420A7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9DE615671731BF3AEFB3CB1F984FA8F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>D9FF8F54F43CCC370ADD5E8F22D6E63B</key>
 		<dict>
@@ -1090,25 +2841,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DA23025FEDA7F7FE2AACB2532BD80D14</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>91413329813FA6FE5A78842159E69621</string>
-				<string>E642B1A057ADA2ABEF90BE2417F349C1</string>
-				<string>D9DE615671731BF3AEFB3CB1F984FA8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DB678D5BECFFC71274B6833DC7F3AE2B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6207FA76695155454712BF89ACD0A9B9</string>
+			<string>1287AF0A398AF7F1275CFE04774D227B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1139,51 +2875,65 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DF6FC7D75DF424D09BE8B9CD085C3228</key>
+		<key>DCA4AAFE813826933728CE94BBA846AB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>DD45F32638933CB66DC1FFE06DF85741</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5B2C1556D40647F4247C10943F6A66FC</string>
+				<string>257DFFB73FA32D0A83A502A18D4700D6</string>
+				<string>CCB6DC33BA544E74599D97B10D6D5ABE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/PPiAwesomeButton</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DEE90D1E97C3095A102EFD25C1FEE8D4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CAAnimation+YALTabBarViewAnimations.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFB8398EC7478105D3DEF442B4F6FDC1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E5575BC24C3D8E9D1E6971D29E7D298</string>
-				<string>DF6FC7D75DF424D09BE8B9CD085C3228</string>
-				<string>C50EAEA211DD88CC5F383DEECB33A6E2</string>
-				<string>323C0A6CB1ADFB24DB3026307E0B7EC2</string>
-				<string>08E3E403E4D8E0728F794C96B32C2B19</string>
-				<string>81DFC167781281EFF494C4622F1116CC</string>
-				<string>BF39E58E9D23D73BF6443DA7E8BEC91F</string>
-				<string>4E83B6EF561B0E992F4463FA252DF6B7</string>
-				<string>A6F1343195249757DBF6AED754CCD8CC</string>
-				<string>1FF257F00E306FDA4EBD526FE58BCD07</string>
-				<string>75CF81412F72D75AE45F63148C764B12</string>
-				<string>7C7530FF817E78F84FE7BE19F7DECEF8</string>
-				<string>EA1D2430AB087E0CAB42B1307D8D1B93</string>
-				<string>74290D4796802DC127CF42B4A57AA836</string>
-				<string>E362EB3AAD6175215C23F3F0C3487945</string>
-				<string>FBEF4EAC555985A38B3E2A5E16A19DF5</string>
-				<string>EFBB309B8961EC89A16713D5637435B8</string>
-				<string>3E263E2EA2989B8C2A1179A51D786691</string>
-				<string>55C4810B772F144CF30789FB95D9ADB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FoldingTabBar</string>
-			<key>path</key>
-			<string>FoldingTabBar</string>
+			<string>FoldingTabBar-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1202,48 +2952,82 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>E362EB3AAD6175215C23F3F0C3487945</key>
+		<key>E0DD3C532DF88AE5AD1377687A0CC4BB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>4859AFA8A33832F8E3991B83111F54B6</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YALSpringAnimation.h</string>
-			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>E642B1A057ADA2ABEF90BE2417F349C1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E86EB04A044C992066ABDFFEC1FE6986</key>
+		<key>E0DE7361D48F2F800A5409F87FFCEAF7</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>0C7911B93871312B6DA1B1EEC1205109</string>
+				<string>45A84AE65E0F9BE3BA0DFDAF0EEE6E96</string>
+				<string>5C68935610EC6D283E9CA36F5772141A</string>
+				<string>89F0C2C845C33B5425ADB790A2FFDC28</string>
+				<string>E2F327F6BCF45A61BFD129486B6DE42D</string>
+				<string>8B989B8B70F0F278FA3153D818599C35</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>EA1D2430AB087E0CAB42B1307D8D1B93</key>
+		<key>E2F327F6BCF45A61BFD129486B6DE42D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC5536E8A1CC5D8012213237BA344FE1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>E53C9E0759CA41824CD663D2A985EEF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FoldingTabBar</string>
+			<key>target</key>
+			<string>F71BAD3AB1E85C78D594828526C960A9</string>
+			<key>targetProxy</key>
+			<string>D3FB7E332A340F8F5911310C75B56964</string>
+		</dict>
+		<key>E5520FE82605E806BB2189828AA8B80F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FoldingTabBar-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5D6DE4473317CE948B964A356A95F0F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CAAnimation+YALTabBarViewAnimations.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6FCC1F045D64601590DBFE6DF103F29</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1252,11 +3036,39 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALFoldingTabBarController.h</string>
+			<string>JBLineChartDotView.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h</string>
+			<string>Classes/Line/Views/JBLineChartDotView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8344BC6967D202C1AF5B57C3A439945</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D38A3AB1A2884171FB1B529D42E88DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E964F65AAFB6512E4D1DE5A4ACD2ABB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>048F4C527A964BC5DE6117A21796C21E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E9FBF60CF0785A4AB4E391EEE946D347</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9B8C1E688EA60E5AD7863E88DE0A941</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>EA74C7D5D34DFC8C25B79ED5E67E475D</key>
 		<dict>
@@ -1272,14 +3084,14 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>ECC8EBFC676967F484997E865656D723</key>
+		<key>EC7BD822E3A1E8B46C2D0EBE032F994B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>81DFC167781281EFF494C4622F1116CC</string>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EFBB309B8961EC89A16713D5637435B8</key>
+		<key>ECB078479FB4D1DEC441814B0B0C0D36</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1288,43 +3100,106 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>YALTabBarItem.h</string>
+			<string>JBChartView.h</string>
 			<key>path</key>
-			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.h</string>
+			<string>Classes/Base/JBChartView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F5E594305050BD393D84E2B3538DC38A</key>
+		<key>ECC8EBFC676967F484997E865656D723</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>fileRef</key>
+			<string>517677011BAF32239BF2800467ADBB49</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED04AE2201316F6590E7AD9952706C7B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>EE288FE23909188F6FC60D3DAF1AFC59</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B6A05F1D37554DB445743352675256C2</string>
+				<string>D7D05D7F0505E07642704E441B1C847D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EF88334CE0A4109A0C283EA7B7BC2779</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2FB9BFCF08BE0892E85BE076A2FC740A</string>
+				<string>242E1E08644DCFB3E4D3770846266E7E</string>
+				<string>4BE396D90A8616BC1EEF1BD3F34B12C7</string>
+				<string>6C194E4D2C3CED5DB0CAE2EB41B1E481</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F092C6C589C18DA661799EA8DA94D87D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBLineChartView.h</string>
+			<key>path</key>
+			<string>Classes/Line/JBLineChartView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F27680D39C80CF60B3889594C3D9675F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALFoldingTabBarController.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F50FF84B64E28083601524FF7B0BEEDD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YALTabBarItem.m</string>
+			<key>path</key>
+			<string>FoldingTabBar/Model/TabBarItem/YALTabBarItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F71BAD3AB1E85C78D594828526C960A9</key>
 		<dict>
@@ -1347,39 +3222,32 @@
 			<key>productName</key>
 			<string>FoldingTabBar</string>
 			<key>productReference</key>
-			<string>524783338562C6F6A5D228C932239EC8</string>
+			<string>70D05D4F3AA059EA0281F29D8CD8B3C5</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>F76177CA9F8751C80F858295B6C8D210</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4274F87EAC9A16D7B35CCF7E83A2B61F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F854B2D6B4C1F48284959888F168DB18</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E263E2EA2989B8C2A1179A51D786691</string>
+			<string>F50FF84B64E28083601524FF7B0BEEDD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>F88BC03B03F259BD6A0B88E10F63CCA9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>937432392F2705A850C7DEFF92ABF5F3</string>
+			<string>E5520FE82605E806BB2189828AA8B80F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F983D80CE67A70A82C6CA861526A4AA2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F5E594305050BD393D84E2B3538DC38A</string>
-				<string>3FF6A0F4D6BDB730713BAE9ED7BAE6E0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FBEF4EAC555985A38B3E2A5E16A19DF5</key>
+		<key>F9B8C1E688EA60E5AD7863E88DE0A941</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1388,9 +3256,45 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YALSpringAnimation.m</string>
+			<string>JBChartView.m</string>
 			<key>path</key>
-			<string>FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m</string>
+			<string>Classes/Base/JBChartView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB53F49A575208B9F4969DB1143F6A1E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0B74A5845A99CE82257E9F7D768B7BFB</string>
+				<string>2D1F36F394E14B3676E814FD558D6BD3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FCB576E1A68E146723A6A4D14DE585A2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FF72E5398B44346B74D1A7DA6E9A63ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JBLineChartLinesView.h</string>
+			<key>path</key>
+			<string>Classes/Line/Views/JBLineChartLinesView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

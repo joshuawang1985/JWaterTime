@@ -43,43 +43,29 @@
                                 <rect key="frame" x="40" y="100" width="520" height="421"/>
                                 <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-rL-PAg">
+                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-rL-PAg">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" red="0.14901960784313725" green="0.77647058823529413" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="DrD-xg-y3q"/>
                                     <constraint firstAttribute="height" constant="64" id="rKu-cg-2HX"/>
                                 </constraints>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.77647058823529413" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="系统设置" id="EFE-0X-OhL"/>
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Asm-rL-PAg" firstAttribute="top" secondItem="74H-UE-dpi" secondAttribute="top" id="2lR-Wq-f3g"/>
                             <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="Asm-rL-PAg" secondAttribute="bottom" constant="36" id="Dbq-bl-i4x"/>
-                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="EZZ-VF-Oc6"/>
                             <constraint firstItem="yY1-0Q-9Uw" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leadingMargin" constant="20" id="GIi-TF-22o"/>
-                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="M4U-dj-xdB"/>
                             <constraint firstItem="z4m-lb-rwS" firstAttribute="top" secondItem="yY1-0Q-9Uw" secondAttribute="bottom" constant="30" id="MUH-x4-eLA"/>
                             <constraint firstItem="Asm-rL-PAg" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leading" id="T7x-ha-y5u"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yY1-0Q-9Uw" secondAttribute="trailing" constant="20" id="U6Z-ba-oNS"/>
-                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="leading" secondItem="74H-UE-dpi" secondAttribute="leadingMargin" constant="20" id="Znp-RB-VPD"/>
-                            <constraint firstItem="z4m-lb-rwS" firstAttribute="top" secondItem="yY1-0Q-9Uw" secondAttribute="bottom" constant="30" id="q1f-oJ-BHM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yY1-0Q-9Uw" secondAttribute="trailing" constant="20" id="wNN-ed-1Kv"/>
-                            <constraint firstItem="yY1-0Q-9Uw" firstAttribute="top" secondItem="dCW-2G-fmc" secondAttribute="bottom" constant="20" id="yt5-2t-cV5"/>
                             <constraint firstAttribute="trailing" secondItem="Asm-rL-PAg" secondAttribute="trailing" id="zfc-3l-ozA"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="EZZ-VF-Oc6"/>
-                                <exclude reference="M4U-dj-xdB"/>
-                                <exclude reference="Znp-RB-VPD"/>
-                                <exclude reference="wNN-ed-1Kv"/>
-                                <exclude reference="yt5-2t-cV5"/>
-                                <exclude reference="q1f-oJ-BHM"/>
-                            </mask>
-                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="aDe-zc-6lg"/>
                     <connections>
@@ -102,30 +88,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3D-7N-9RD">
-                                <rect key="frame" x="40" y="100" width="520" height="421"/>
-                                <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OsE-k9-lcV">
+                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OsE-k9-lcV">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="858-xh-Efo"/>
                                     <constraint firstAttribute="height" constant="64" id="Z1m-Cb-Uab"/>
                                     <constraint firstAttribute="width" constant="600" id="oPP-ty-KAs"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="qv8-th-B4A"/>
                                 </constraints>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="报表" id="byL-9x-iYO"/>
                                 </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qv8-th-B4A"/>
+                                    </mask>
+                                </variation>
                             </navigationBar>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3D-7N-9RD">
+                                <rect key="frame" x="40" y="150" width="520" height="371"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="b3D-7N-9RD" secondAttribute="trailing" constant="20" id="GE6-90-fVf"/>
                             <constraint firstItem="BEC-Jn-Iir" firstAttribute="top" secondItem="b3D-7N-9RD" secondAttribute="bottom" constant="30" id="Q6g-GY-imO"/>
                             <constraint firstAttribute="trailing" secondItem="OsE-k9-lcV" secondAttribute="trailing" id="S9e-Bu-Dr0"/>
                             <constraint firstItem="OsE-k9-lcV" firstAttribute="top" secondItem="OFt-4O-tQu" secondAttribute="top" id="SKw-mH-iFJ"/>
-                            <constraint firstItem="b3D-7N-9RD" firstAttribute="top" secondItem="OsE-k9-lcV" secondAttribute="bottom" constant="36" id="UFt-gv-5Ok"/>
+                            <constraint firstItem="b3D-7N-9RD" firstAttribute="top" secondItem="OsE-k9-lcV" secondAttribute="bottom" constant="86" id="UFt-gv-5Ok"/>
                             <constraint firstItem="OsE-k9-lcV" firstAttribute="leading" secondItem="OFt-4O-tQu" secondAttribute="leading" id="k2k-A3-YkS"/>
                             <constraint firstItem="b3D-7N-9RD" firstAttribute="leading" secondItem="OFt-4O-tQu" secondAttribute="leadingMargin" constant="20" id="svr-0b-qsq"/>
                         </constraints>
@@ -155,7 +149,7 @@
                                 <rect key="frame" x="40" y="100" width="520" height="421"/>
                                 <color key="backgroundColor" red="0.45098039220000002" green="0.56078431370000004" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yZ-ab-kkU">
+                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yZ-ab-kkU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="4Qi-w2-msm"/>
@@ -165,12 +159,19 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="bVF-7l-5Do"/>
                                     <constraint firstAttribute="width" constant="600" id="cbi-cX-oX3"/>
                                 </constraints>
+                                <color key="barTintColor" red="0.14901960780000001" green="0.77647058820000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="统计" id="oWM-VC-bYL"/>
                                 </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ahf-SR-aeJ"/>
+                                        <exclude reference="bVF-7l-5Do"/>
+                                    </mask>
+                                </variation>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.92535293102264404" green="0.92532753944396973" blue="0.93762314319610596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5yZ-ab-kkU" secondAttribute="trailing" id="1c8-SU-YHe"/>
                             <constraint firstItem="SfM-Yc-5en" firstAttribute="leading" secondItem="LmS-YK-kJc" secondAttribute="leadingMargin" constant="20" id="Muk-DU-KDn"/>
@@ -206,7 +207,7 @@
                                 <rect key="frame" x="40" y="100" width="520" height="421"/>
                                 <color key="backgroundColor" red="0.45098039215686275" green="0.5607843137254902" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-AU-VB6">
+                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-AU-VB6">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="Ew6-7E-t1v"/>
@@ -218,12 +219,23 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="t2C-pg-TWk"/>
                                     <constraint firstAttribute="width" constant="600" id="tyU-sB-xDA"/>
                                 </constraints>
+                                <color key="barTintColor" red="0.14901960780000001" green="0.77647058820000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="时间" id="fal-Ox-2DA"/>
                                 </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ew6-7E-t1v"/>
+                                        <exclude reference="Nyz-54-BvC"/>
+                                        <exclude reference="Pb4-az-RQS"/>
+                                        <exclude reference="Qm2-c6-3qx"/>
+                                        <exclude reference="kRO-ZY-dmt"/>
+                                        <exclude reference="t2C-pg-TWk"/>
+                                    </mask>
+                                </variation>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="X4h-AU-VB6" firstAttribute="top" secondItem="HVw-cj-dDZ" secondAttribute="top" id="3Ok-7a-gLx"/>
                             <constraint firstItem="dwQ-U8-QDK" firstAttribute="top" secondItem="wRp-g2-qNR" secondAttribute="bottom" constant="30" id="5oa-dy-1Xt"/>

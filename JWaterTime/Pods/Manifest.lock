@@ -1,10 +1,19 @@
 PODS:
   - FoldingTabBar (1.0.4)
+  - FontAwesome+iOS (0.1.4)
+  - JBChartView (3.0.12)
+  - PPiAwesomeButton (1.5.2):
+    - FontAwesome+iOS
 
 DEPENDENCIES:
   - FoldingTabBar (~> 1.0.3)
+  - JBChartView
+  - PPiAwesomeButton
 
 SPEC CHECKSUMS:
   FoldingTabBar: 0b099ae881bb5e009eb5f893aba2d6d8d8a066a2
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  JBChartView: 08877554448ccf99c12625ad0ebce70588ff8318
+  PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
 
 COCOAPODS: 0.39.0

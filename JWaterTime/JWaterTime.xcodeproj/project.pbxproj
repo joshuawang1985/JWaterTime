@@ -33,6 +33,10 @@
 		D29F6B631D2E3D3200D96E89 /* JDayWaterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F6B621D2E3D3200D96E89 /* JDayWaterVC.m */; };
 		D29F6B661D2E3FB000D96E89 /* JReportChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F6B651D2E3FB000D96E89 /* JReportChartVC.m */; };
 		D29F6B691D2E401400D96E89 /* JSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F6B681D2E401400D96E89 /* JSettingVC.m */; };
+		D29F6B6F1D2E773000D96E89 /* HYQiHei-50J.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D29F6B6E1D2E773000D96E89 /* HYQiHei-50J.ttf */; };
+		D2F577AC1D2F7AE000D6D9E6 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2F577A71D2F7AE000D6D9E6 /* fontawesome-webfont.ttf */; };
+		D2F577AD1D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F577A91D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.m */; };
+		D2F577AE1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F577AB1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +74,12 @@
 		D29F6B651D2E3FB000D96E89 /* JReportChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JReportChartVC.m; sourceTree = "<group>"; };
 		D29F6B671D2E401400D96E89 /* JSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSettingVC.h; sourceTree = "<group>"; };
 		D29F6B681D2E401400D96E89 /* JSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSettingVC.m; sourceTree = "<group>"; };
+		D29F6B6E1D2E773000D96E89 /* HYQiHei-50J.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HYQiHei-50J.ttf"; path = "../HYQiHei-50J.ttf"; sourceTree = "<group>"; };
+		D2F577A71D2F7AE000D6D9E6 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		D2F577A81D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPiFlatSegmentedControl.h; sourceTree = "<group>"; };
+		D2F577A91D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPiFlatSegmentedControl.m; sourceTree = "<group>"; };
+		D2F577AA1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPiFlatSegmentItem.h; sourceTree = "<group>"; };
+		D2F577AB1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPiFlatSegmentItem.m; sourceTree = "<group>"; };
 		F2DED45EE9312048B4513E7A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FE702FD9C76CEB74E9C1C242 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +134,7 @@
 		D29F6B231D2E018A00D96E89 /* JWaterTime */ = {
 			isa = PBXGroup;
 			children = (
+				D2F577A61D2F7AC400D6D9E6 /* SegmentControl */,
 				D29F6B3E1D2E026D00D96E89 /* viewController */,
 				D29F6B271D2E018A00D96E89 /* AppDelegate.h */,
 				D29F6B281D2E018A00D96E89 /* AppDelegate.m */,
@@ -146,7 +157,6 @@
 				D29F6B4E1D2E21CB00D96E89 /* settings_icon.imageset */,
 				D29F6B4F1D2E21CB00D96E89 /* side_button.imageset */,
 				D29F6B351D2E018A00D96E89 /* LaunchScreen.storyboard */,
-				D29F6B381D2E018A00D96E89 /* Info.plist */,
 				D29F6B301D2E018A00D96E89 /* JWaterTime.xcdatamodeld */,
 				D29F6B241D2E018A00D96E89 /* Supporting Files */,
 			);
@@ -156,6 +166,8 @@
 		D29F6B241D2E018A00D96E89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D29F6B6E1D2E773000D96E89 /* HYQiHei-50J.ttf */,
+				D29F6B381D2E018A00D96E89 /* Info.plist */,
 				D29F6B251D2E018A00D96E89 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -174,6 +186,18 @@
 				D29F6B681D2E401400D96E89 /* JSettingVC.m */,
 			);
 			name = viewController;
+			sourceTree = "<group>";
+		};
+		D2F577A61D2F7AC400D6D9E6 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				D2F577A71D2F7AE000D6D9E6 /* fontawesome-webfont.ttf */,
+				D2F577A81D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.h */,
+				D2F577A91D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.m */,
+				D2F577AA1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.h */,
+				D2F577AB1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.m */,
+			);
+			name = SegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,12 +271,14 @@
 				D29F6B511D2E21CB00D96E89 /* chats_icon.imageset in Resources */,
 				D29F6B341D2E018A00D96E89 /* Assets.xcassets in Resources */,
 				D29F6B5D1D2E21CB00D96E89 /* side_button.imageset in Resources */,
+				D29F6B6F1D2E773000D96E89 /* HYQiHei-50J.ttf in Resources */,
 				D29F6B561D2E21CB00D96E89 /* edit_icon.imageset in Resources */,
 				D29F6B2F1D2E018A00D96E89 /* Main.storyboard in Resources */,
 				D29F6B541D2E21CB00D96E89 /* circle_square.imageset in Resources */,
 				D29F6B5C1D2E21CB00D96E89 /* settings_icon.imageset in Resources */,
 				D29F6B521D2E21CB00D96E89 /* circle_left.imageset in Resources */,
 				D29F6B571D2E21CB00D96E89 /* nearby_icon.imageset in Resources */,
+				D2F577AC1D2F7AE000D6D9E6 /* fontawesome-webfont.ttf in Resources */,
 				D29F6B531D2E21CB00D96E89 /* circle_right.imageset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,10 +341,12 @@
 				D29F6B691D2E401400D96E89 /* JSettingVC.m in Sources */,
 				D29F6B631D2E3D3200D96E89 /* JDayWaterVC.m in Sources */,
 				D29F6B2C1D2E018A00D96E89 /* ViewController.m in Sources */,
+				D2F577AE1D2F7AE000D6D9E6 /* PPiFlatSegmentItem.m in Sources */,
 				D29F6B291D2E018A00D96E89 /* AppDelegate.m in Sources */,
 				D29F6B601D2E324C00D96E89 /* JTimeSettingVC.m in Sources */,
 				D29F6B261D2E018A00D96E89 /* main.m in Sources */,
 				D29F6B661D2E3FB000D96E89 /* JReportChartVC.m in Sources */,
+				D2F577AD1D2F7AE000D6D9E6 /* PPiFlatSegmentedControl.m in Sources */,
 				D29F6B321D2E018A00D96E89 /* JWaterTime.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +465,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JWaterTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joshua.JWaterTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +481,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JWaterTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joshua.JWaterTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
